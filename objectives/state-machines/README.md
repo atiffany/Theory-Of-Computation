@@ -84,3 +84,7 @@ See attached PNG image
 Elven Assassin VR FSM for Orc Assassin NPC
 
 ![My FSM for Elven Assassin Character](img/EAVR_FSM_cropped.png)
+
+
+My FSM for Turning Signals in Cars
+![FSM for Turn Signals](img/TurnSignals_cropped.png)
