@@ -167,6 +167,7 @@ Write a regex that matches a `1`, followed by 0 or more `2`s, followed by 0-1 `3
 
 Write a regex that matches any one or two digit number, followed by a space,
 followed by the word `monkey`, followed by 0 or 1 `s`s.
+
 ```
 [0-9][0-9]?\smonkeys?
 ```
@@ -181,3 +182,5 @@ For this, it's OK to have a single transition for all the digits, e.g. "Go from
 start state to state 1 if the input is `[0-9]` or ε":
 
 ![Regex to State Machine](img/regex-to-sm.png)
+![My Clock FSM](img/Clock_FSM_cropped.png
+)
