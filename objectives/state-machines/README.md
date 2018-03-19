@@ -74,5 +74,9 @@ dime.
 Video game AIs can exist in a lot of states, e.g. idling, bored, running, shooting.
 
 1. Come up with a list of 4 states an AI can be in.
+Game: Elven Assassin VR
+Character: Orc Warrior
+States: running, paused, attacking player, dead, destroying city
 2. Figure out the transitions between those states.
 3. Draw a state machine diagram of your AI.
+See attached PNG image (EAVR_FSM_cropped.png located in img directory)
