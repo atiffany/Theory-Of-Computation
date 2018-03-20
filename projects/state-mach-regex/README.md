@@ -6,6 +6,8 @@
    transitions leading to both lights not blinking, one light blinking, the
    other light blinking, or both lights blinking?
 
+   ![FSM Car Turn Signals](img/TurnSignals_cropped.png)
+
 ## Regular Expressions
 
 1. Write a regex to parse all links from a web page and print them:
@@ -40,3 +42,9 @@ the url from the double quotes `"` surrounding it.
 The output of any of these phone #s as input should be:
 
       5551234567
+
+
+## ANSWER: 
+```
+\d{3}\W?\d{3}\W?\d{4}
+```
