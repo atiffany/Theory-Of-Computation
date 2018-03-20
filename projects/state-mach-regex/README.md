@@ -30,6 +30,13 @@ You can find these links by searching for the `http` or `https` string with your
 regex, or the `href=` string, or potentially many others. Remember to separate
 the url from the double quotes `"` surrounding it.
 
+
+## ANSWER:
+```
+https?:\/\/([\w-]+\.)?[\w-/]+\.[\w-/]+
+```
+
+
 2. Write a regex that accepts a phone number in any phone number format:
 
 ```
